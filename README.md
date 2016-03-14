@@ -7,4 +7,6 @@ To use the cache accross containers mount a filesystem directory or data storage
 
 Example usage
 
+```
 docker run -it --rm -v /tmp/npm/cache:/root/.package_cache/npm/ -v `pwd`:/app hourd/npm-cache npm-cache install
+```
